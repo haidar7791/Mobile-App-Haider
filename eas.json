@@ -1,12 +1,19 @@
 {
   "cli": {
-    "version": ">= 3.13.0"
+    "version": ">= 3.7.2"
   },
   "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
     "production": {
-      "android": {
-        "buildType": "app-bundle" 
-      }
+      "developmentClient": false,
+      "autoIncrement": true
     }
   },
   "submit": {
