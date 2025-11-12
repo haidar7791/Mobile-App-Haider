@@ -1,7 +1,7 @@
 {
   "expo": {
     "slug": "haidar7791",
-    "owner": "haidarzaidan",
+    "owner": "haidarzaidan",  
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "assets/icon.png",
@@ -9,9 +9,7 @@
       "package": "com.haider.registerapp"
     },
     "extra": {
-      "eas": {
-        "projectId": ""
-      }
+      "eas": {}
     }
   }
 }
